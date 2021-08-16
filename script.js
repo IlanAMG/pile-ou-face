@@ -21,7 +21,7 @@ const randomChoice = (min, max) => {
 
 const final = () => {
     btnReplay.style.display = 'inline'
-    if (random === 1) {
+    if (result === 1) {
         image.src = 'https://media.discordapp.net/attachments/555531744464601121/876586130714279996/pile.jpg'
     } else {
         image.src = 'https://cdn.discordapp.com/attachments/555531744464601121/876586152528850994/face.jpg'
